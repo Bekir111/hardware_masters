@@ -1,0 +1,30 @@
+# KiCad backups and autosave
+*-backups/
+_autosave-*
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_prl
+\#auto_saved_files\#
+
+# Lock files (when a file is open in KiCad)
+~*.lck
+*.lck
+
+# Caches
+fp-info-cache
+*-cache.lib
+
+# Generated fabrication outputs
+gerbers/
+*.gbr
+*.drl
+*.gbrjob
+*.pos
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
